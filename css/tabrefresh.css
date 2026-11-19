@@ -1,0 +1,16 @@
+/**
+ * Tab Refresh: refresh button in each contact summary tab panel.
+ * Loaded for every theme. See js/tabrefresh.js
+ * Riverlea colours and spacing are in tabrefresh-riverlea.css
+ */
+
+/* Floats into the top-right corner of the panel content so it doesn't need its own row */
+.crm-container .tabrefresh {
+  float: right;
+  position: relative;
+  z-index: 1;
+  margin: 0 0 4px 8px;
+}
+.crm-container .tabrefresh .crm-button {
+  margin: 0;
+}

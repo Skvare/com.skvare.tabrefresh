@@ -1,0 +1,20 @@
+/**
+ * Tab Refresh: Riverlea overrides for tabrefresh.css
+ * Only loaded when a Riverlea stream is the active theme (see _tabrefresh_is_riverlea_active()),
+ * because these variables are undefined in other themes.
+ */
+
+.crm-container .tabrefresh {
+  margin: 0 0 var(--crm-l-small) var(--crm-l-medium);
+}
+.crm-container .tabrefresh .crm-button {
+  padding: var(--crm-l-xsmall) var(--crm-l-small);
+  height: auto;
+  background: var(--crm-secondary-color);
+  color: var(--crm-secondary-text-color);
+}
+.crm-container .tabrefresh .crm-button:hover,
+.crm-container .tabrefresh .crm-button:focus {
+  background: var(--crm-secondary-hover-color);
+  color: var(--crm-secondary-hover-text-color);
+}

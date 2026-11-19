@@ -1,0 +1,12 @@
+site_name: Tab Refresh
+repo_url: https://github.com/Skvare/com.skvare.tabrefresh
+theme:
+  name: material
+nav:
+  - User guide: index.md
+  - Developer notes: developer.md
+markdown_extensions:
+  - attr_list
+  - admonition
+  - toc:
+      permalink: true
